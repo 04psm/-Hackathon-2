@@ -246,7 +246,7 @@ section.services .card-wrapper .card h2:hover, section.services .card-wrapper .c
 
 }
 
-					/*----------------------services---------------------*/
+					/*----------------------Skills---------------------*/
 
 
 section.freelancer{
@@ -432,30 +432,7 @@ section.blog .card-wrapper .card .card-content a.read-more{
 	font-size: 0.8rem;
 }
 /*----------------------Blog---------------------*/
-footer{
-	background: var(--dark);
-	text-align: center;
-	padding: 5rem 0;
-}
 
-footer.footer-logo{
-	margin-bottom: 3rem;
-	width: 200px;
-}
-
-footer.footer-socials a{
-	margin-right: 1rem;
-  
-}
-
-footer.footer-socials{
-	margin-bottom: 3rem;
-	margin-right: -1rem;
-}
-
-footer.copyright{
-	color: var(--ternary);
-}
 
 section.contact .card-wrapper{
 
@@ -532,24 +509,50 @@ footer{
 	padding: 5rem 0;
 }
 
-footer.footer-logo{
-	margin-bottom: 3rem;
-	width: 200px;
+footer .footer-logo {
+	margin-bottom: 2rem;
+	height: 100px;
+ 	width: 100px;
 }
 
-footer.footer-socials a{
+footer .footer-socials a{
 	margin-right: 1rem;
   
 }
+footer .footer-socials a img{
+	
+	width: 35px;
+	height: 35px;
+	background: var(--dark);
+	border-radius: 10%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	-o-border-radius:50%;
+	margin-right: 0.6rem;
+	transition: all .3s ease;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	-ms-transition:all .3s ease;
+	-o-transition:all .3s ease;
+}
+footer .footer-socials a img:hover{
+	background: var(--secondary);
+}
 
-footer.footer-socials{
+footer .footer-socials{
 	margin-bottom: 3rem;
 	margin-right: -1rem;
 }
 
-footer.copyright{
+footer .copyright{
 	color: var(--ternary);
 }
+
+
+
+
+
 
 
 
